@@ -1,0 +1,15 @@
+﻿<Window x:Class="MAI_Laba5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MAI_Laba5"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="173" Width="347">
+    <Grid>
+        <Button Content="Загрузить" Name="Load" HorizontalAlignment="Left" Margin="160,12,0,0" VerticalAlignment="Top" Click="Load_Click"/>
+        <ComboBox Name="ValSelect" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="ValSelect_SelectionChanged"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,51,0,0" TextWrapping="Wrap" Name="ValSelected" VerticalAlignment="Top" Height="21" Width="120"/>
+
+    </Grid>
+</Window>
