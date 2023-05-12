@@ -67,7 +67,7 @@ namespace MAI_Laba11
                 
                 var y = ResFunc(x, pattern);
 
-                if (double.IsNaN(y))
+                if (double.IsNaN(y) || double.IsInfinity(y))
                 {
                     MessageBox.Show("Вне области определения!");
                     return;
